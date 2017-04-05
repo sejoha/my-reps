@@ -290,7 +290,6 @@ function checkFederal(division_id, office_name) {
 
 function checkState(division_id){
     if( sl_pattern.test(division_id))
-        
         return true;
     else
         return false; 
