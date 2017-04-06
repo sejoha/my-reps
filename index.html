@@ -252,9 +252,9 @@ layout: default
             <% if (info.phones){ %>
                 <% $.each(info.phones, function(i, phone){ %>
                     <% if ((i + 1) < info.phones.length){ %>
-                        <i class='fa fa-fw fa-phone'></i> <a href="tel:<%= phone %>"><%= phone %></a><br />
+                        <i class='fa fa-fw fa-phone'></i> <%= phone %><br />
                     <% } else { %>
-                        <i class='fa fa-fw fa-phone'></i> <a href="tel:<%= phone %>"><%= phone %></a>
+                        <i class='fa fa-fw fa-phone'></i> <%= phone %>
                     <% } %>
                 <% }) %>
                 <br />
