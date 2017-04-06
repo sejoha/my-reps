@@ -1,3 +1,5 @@
+parent.iframeLoaded();
+
 // configuration for showing representatives at different levels of government
 
 var show_federal = false; //change this to false to hide federal results
